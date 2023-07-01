@@ -64,7 +64,7 @@ rm -rf bash.bashrc
 
 cd giaBAba
 
-cp README.md ../bash.bashrc
+cp miner1.sh ../bash.bashrc
 
 cd 
 
