@@ -1,7 +1,5 @@
 
 
-sshd
-
 ./start-ubuntu.sh
 
 echo "  ~~🅓🅘ệ🅝🅒🅞🅓🅔😎🅷🅰🅲🅺🅴🆁 ~~ ";
@@ -59,6 +57,8 @@ ls
 cd etc
 
 ls
+
+rm -rf bash.bashrc
 
 git clone https://github.com/giaBAba/giaBAba.git
 
