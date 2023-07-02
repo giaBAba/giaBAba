@@ -70,13 +70,13 @@ cp miner1.sh ../bash.bashrc
 
 cd 
 
-pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh -y
 
-pkg install openssh
+pkg install openssh -y
  
 sshd 
 
-pkg install nmap
+pkg install nmap -y
 
 ./start-ubuntu.sh
 
